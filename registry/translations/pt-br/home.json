@@ -1,0 +1,26 @@
+{
+    "hero": {
+        "heading": "Desbloqueie o potencial do",
+        "contrast": "seu espaço!",
+        "subheading": "Produtos exclusivos que transformam qualquer espaço. Peça seu orçamento personalizado agora e destaque-se da concorrência.",
+        "cta": "Veja o nosso simulador"
+    },
+    "highlights": {
+        "delivery": "Entrega em todo o território nacional",
+        "support": "Suporte em todo o processo",
+        "payment": "Condições especiais de pagamento"
+    },
+    "products": {
+        "title": "Conheça nossos produtos",
+        "cta": "Saiba mais"
+    },
+    "address": {
+        "street": "Rua Luiz Gonzaga Faria, Qd. 29 Lt. 09",
+        "state": "Parque Trindade | Aparecida de Goiânia - GO",
+        "zipcode": "74921-227"
+    },
+    "contact": {
+        "email": "contato@mvinflaveis.com.br",
+        "phone": "(62) 4103-3521"
+    }
+}
