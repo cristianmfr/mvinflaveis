@@ -4,7 +4,6 @@ import { motion } from 'framer-motion'
 import Image from 'next/image'
 
 import { CtaButton } from '@/components/molecules/cta-button'
-import ImagePlaceholder from '@/assets/images/image-placeholder.svg'
 
 export function Hero({
     title,
@@ -53,7 +52,7 @@ export function Hero({
                 >
                     <Image
                         alt='SaaS Dashboard'
-                        src={ImagePlaceholder}
+                        src='/assets/images/hero.jpg'
                         width={1100}
                         height={698}
                         priority

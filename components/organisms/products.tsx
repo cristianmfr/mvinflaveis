@@ -3,7 +3,6 @@ import Image from 'next/image'
 import React from 'react'
 import { Carousel, Card } from '@/components/templates/cards-carousel'
 import { TextGenerateEffect } from '../templates/text-generate-effect'
-import ImagePlaceholder from '@/assets/images/image-placeholder.svg'
 
 export function Products() {
     const cards = data.map((card, index) => (
@@ -18,7 +17,7 @@ export function Products() {
     )
 }
 
-const DummyContent = () => {
+const DummyContent = ({ image }: { image: string }) => {
     return (
         <>
             {[...new Array(1).fill(1)].map((_, index) => {
@@ -38,11 +37,11 @@ const DummyContent = () => {
                             commodo consequat.
                         </p>
                         <Image
-                            src='/placeholder.svg'
+                            src={image}
                             alt='placeholder'
                             height='500'
                             width='500'
-                            className='md:w-1/2 md:h-1/2 h-full w-full mx-auto object-contain'
+                            className='md:w-1/2 md:h-1/2 h-full w-full mx-auto object-contain rounded-lg mt-8'
                         />
                     </div>
                 )
@@ -55,50 +54,50 @@ const data = [
     {
         category: 'Inflável',
         title: 'Portal',
-        src: ImagePlaceholder,
-        content: <DummyContent />,
+        src: '/assets/images/portal.jpeg',
+        content: <DummyContent image='/assets/images/portal.jpeg' />,
     },
     {
         category: 'Inflável',
         title: 'Réplica',
-        src: ImagePlaceholder,
-        content: <DummyContent />,
+        src: '/assets/images/replica.jpeg',
+        content: <DummyContent image='/assets/images/replica.jpeg' />,
     },
     {
         category: 'Inflável',
         title: 'Roof Top',
-        src: ImagePlaceholder,
-        content: <DummyContent />,
+        src: '/assets/images/rooftop.jpeg',
+        content: <DummyContent image='/assets/images/rooftop.jpeg' />,
     },
 
     {
         category: 'Inflável',
         title: 'Tenda',
-        src: ImagePlaceholder,
-        content: <DummyContent />,
+        src: '/assets/images/kits.jpeg',
+        content: <DummyContent image='/assets/images/kits.jpeg' />,
     },
     {
         category: 'Inflável',
         title: 'Totem',
-        src: ImagePlaceholder,
-        content: <DummyContent />,
+        src: '/assets/images/totem.jpeg',
+        content: <DummyContent image='/assets/images/portal.jpeg' />,
     },
     {
         category: 'Inflável',
         title: 'Túnel',
-        src: ImagePlaceholder,
-        content: <DummyContent />,
+        src: '/assets/images/tunel.jpeg',
+        content: <DummyContent image='/assets/images/tunel.jpeg' />,
     },
     {
         category: 'Inflável',
         title: 'Wind Banner',
-        src: ImagePlaceholder,
-        content: <DummyContent />,
+        src: '/assets/images/wind.jpeg',
+        content: <DummyContent image='/assets/images/wind.jpeg' />,
     },
     {
         category: 'Inflável',
         title: 'Kit Sucesso',
-        src: ImagePlaceholder,
-        content: <DummyContent />,
+        src: '/assets/images/kits.jpeg',
+        content: <DummyContent image='/assets/images/kits.jpeg' />,
     },
 ]
