@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "name": "Kits Sucesso",
+    "description": "Os infláveis promocionais são uma solução versátil e de alto impacto para destacar sua marca em eventos. Com excelente custo-benefício, fácil instalação e grande apelo visual, são ideais para diferentes estratégias de comunicação. Se busca qualidade e eficácia, conte com a MV Infláveis.",
+    "category": "kits",
+    "image": "/kits.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "Portal",
+    "description": "Os Portais Infláveis da MV Infláveis são ideais para eventos ao ar livre, como corridas de rua, competições esportivas e ativações promocionais. Tradicionalmente em formato de arco ou trave, também podem ser desenvolvidos em formatos personalizados que representem sua marca ou produto.",
+    "category": "estruturas",
+    "image": "/portal.jpeg"
+  },
+  {
+    "id": 3,
+    "name": "Réplica",
+    "description": "Reproduções fiéis de produtos ou estruturas em escala real, perfeitas para demonstrações, exposições e apresentações corporativas.",
+    "category": "replicas",
+    "image": "/replica.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "Roof Top",
+    "description": "Coberturas elegantes e funcionais para eventos ao ar livre, oferecendo proteção contra intempéries e criando ambientes sofisticados para recepções e cerimônias.",
+    "category": "coberturas",
+    "image": "/rooftop.jpeg"
+  },
+  {
+    "id": 5,
+    "name": "Tenda Aranha",
+    "description": "Estrutura de tenda com design único em formato de aranha, ideal para eventos temáticos, festas infantis e experiências interativas memoráveis.",
+    "category": "tendas",
+    "image": "/tenda-aranha.jpeg"
+  },
+  {
+    "id": 6,
+    "name": "Tenda Casa",
+    "description": "Tenda com formato de casa, perfeita para criar ambientes acolhedores e familiares em eventos, feiras e exposições com temática residencial.",
+    "category": "tendas",
+    "image": "/tenda-casa.jpeg"
+  },
+  {
+    "id": 7,
+    "name": "Totem",
+    "description": "Estrutura vertical versátil para exibição de banners, informações e publicidade, ideal para direcionamento de público e comunicação visual em eventos.",
+    "category": "sinalizacao",
+    "image": "/totem.jpeg"
+  },
+  {
+    "id": 8,
+    "name": "Túnel",
+    "description": "Passagem coberta e decorada que cria uma experiência imersiva para os visitantes, perfeita para transições entre áreas de eventos e experiências temáticas.",
+    "category": "estruturas",
+    "image": "/tunel.jpeg"
+  },
+  {
+    "id": 9,
+    "name": "Wind Banner",
+    "description": "Banners infláveis que se movem com o vento, criando movimento dinâmico e chamando atenção para sua marca ou evento de forma impactante e moderna.",
+    "category": "banners",
+    "image": "/wind.jpeg"
+  }
+]

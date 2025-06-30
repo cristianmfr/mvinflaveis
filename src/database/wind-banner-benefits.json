@@ -1,0 +1,49 @@
+{
+  "windBannerBenefits": [
+    {
+      "id": 1,
+      "title": "Atraia mais clientes",
+      "description": "Chame atenção de longe com uma comunicação visual que realmente se destaca. Perfeito para aumentar o fluxo de pessoas no seu ponto de venda."
+    },
+    {
+      "id": 2,
+      "title": "Resistência ao tempo",
+      "description": "Feitos com materiais de qualidade que suportam sol, vento e chuva leve. Ideais para uso contínuo em áreas externas e internas."
+    },
+    {
+      "id": 3,
+      "title": "Reutilizável e durável",
+      "description": "Design resistente com tecido lavável e estrutura leve. Pode ser usado em diversos eventos ou campanhas promocionais."
+    },
+    {
+      "id": 4,
+      "title": "Versátil para qualquer negócio",
+      "description": "Desde lojas, academias, praias, feiras e eventos corporativos. O Wind Banner se adapta ao seu público e local."
+    },
+    {
+      "id": 5,
+      "title": "Alta qualidade de impressão",
+      "description": "Cores vivas e nítidas com sublimação digital. Sua marca com destaque profissional."
+    },
+    {
+      "id": 6,
+      "title": "Fácil transporte",
+      "description": "Leve, compacto e desmontável. Cabe no porta-malas e vai com você para qualquer lugar."
+    },
+    {
+      "id": 7,
+      "title": "Montagem sem complicação",
+      "description": "Sem ferramentas ou instalação especializada. Em poucos minutos está pronto para uso."
+    },
+    {
+      "id": 8,
+      "title": "Custo-benefício real",
+      "description": "Alto impacto visual com baixo investimento. Solução eficaz para quem quer divulgar com qualidade sem gastar muito."
+    },
+    {
+      "id": 9,
+      "title": "Possibilidade de renovar apenas a bandeira",
+      "description": "Quer trocar a arte? Mantém a base e a haste, só substitui a bandeira — prático e econômico."
+    }
+  ]
+}
