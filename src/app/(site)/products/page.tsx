@@ -12,7 +12,12 @@ export default function Products() {
       </div>
       <div className="grid grid-cols-4 gap-8">
         {db.products.map((product, i) => (
-          <ProductCard key={i} name={product.name} image={product.image} />
+          <ProductCard
+            key={i}
+            id={product.id.toString()}
+            name={product.name}
+            image={product.image}
+          />
         ))}
       </div>
     </div>

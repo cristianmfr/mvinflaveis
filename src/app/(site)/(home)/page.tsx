@@ -1,3 +1,4 @@
+import { SendContactModal } from '@/components/modals/send-contact-modal'
 import { AboutSection } from '@/components/sections/about-section'
 import { BannerSection } from '@/components/sections/banner-section'
 import { CatalogSection } from '@/components/sections/catalog-section'
@@ -8,12 +9,12 @@ import { HighlightsSection } from '@/components/sections/highlight-section'
 import { LocationSection } from '@/components/sections/location-section'
 import { NewsletterSection } from '@/components/sections/newsletter-section'
 import { ProductsHighlightSection } from '@/components/sections/products-highlight-section'
-import RevendedorSection from '@/components/sections/revendedor-section'
 import { WindSection } from '@/components/sections/wind-section'
 
 export default function Home() {
   return (
     <>
+      <SendContactModal />
       <BannerSection />
       <CategoriesSection />
       <ProductsHighlightSection />
@@ -22,7 +23,6 @@ export default function Home() {
       <WindSection />
       <DiffSection />
       <NewsletterSection />
-      <RevendedorSection />
       <AboutSection />
       <CustomersSection />
       <LocationSection />

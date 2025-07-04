@@ -1,17 +1,21 @@
+'use client'
+
+import { SendContactModal } from '@/components/modals/send-contact-modal'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
 import { Label } from '@/components/ui/label'
-import {
-  IconBrandWhatsappFilled,
-  IconShoppingBagCheck,
-} from '@tabler/icons-react'
+import { IconBrandWhatsappFilled } from '@tabler/icons-react'
+import { useRouter } from 'next/navigation'
 
 export type ProductItem = {
+  id: string
   name: string
   image: string
 }
 
-export function ProductCard({ name, image }: ProductItem) {
+export function ProductCard({ id, name, image }: ProductItem) {
+  const router = useRouter()
+
   return (
     <Card className="hover:border-primary/30 transition ease-in w-[22rem] hover:scale-105">
       <CardContent>
@@ -26,13 +30,13 @@ export function ProductCard({ name, image }: ProductItem) {
           </div>
           <div className="flex flex-col w-full gap-2">
             <div className="w-full grid grid-cols-3">
-              <Button className="w-full bg-[#ff8000] hover:bg-[#ff5e00] transition ease-in rounded-none rounded-bl-md h-10">
+              <Button
+                onClick={() => router.push(`/products/${id}`)}
+                className="w-full bg-[#ff8000] hover:bg-[#ff5e00] transition ease-in rounded-none rounded-bl-md h-10"
+              >
                 Detalhes
               </Button>
-              <Button className="w-full col-span-2 bg-primary transition ease-in rounded-none rounded-br-md h-10">
-                Orçamento Rápido
-                <IconShoppingBagCheck className="size-6" />
-              </Button>
+              <SendContactModal />
             </div>
           </div>
           <div className="flex flex-col w-full gap-2 mt-2">

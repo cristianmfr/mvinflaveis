@@ -22,7 +22,12 @@ export function ProductsHighlightSection() {
           {db.products
             .filter((item) => item.id <= 4)
             .map((product, i) => (
-              <ProductCard key={i} name={product.name} image={product.image} />
+              <ProductCard
+                key={i}
+                id={product.id.toString()}
+                name={product.name}
+                image={product.image}
+              />
             ))}
         </div>
       </div>

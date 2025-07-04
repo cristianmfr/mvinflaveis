@@ -24,7 +24,7 @@ export function Footer() {
               size="icon"
               className="hover:scale-120 transition duration-400"
             >
-              <Image
+              <img
                 src="/icons/instagram-icon.svg"
                 alt="INSTAGRAM"
                 className="size-4"
@@ -34,7 +34,7 @@ export function Footer() {
               size="icon"
               className="hover:scale-120 transition duration-400"
             >
-              <Image
+              <img
                 src="/icons/facebook-icon.svg"
                 alt="FACEBOOK"
                 className="size-4"
@@ -44,7 +44,7 @@ export function Footer() {
               size="icon"
               className="hover:scale-120 transition duration-400"
             >
-              <Image
+              <img
                 src="/icons/linkedin-icon.svg"
                 alt="LINKEDIN"
                 className="size-4"
@@ -54,7 +54,7 @@ export function Footer() {
               size="icon"
               className="hover:scale-120 transition duration-400"
             >
-              <Image
+              <img
                 src="/icons/whatsapp-icon.svg"
                 alt="WHATSAPP"
                 className="size-4"
